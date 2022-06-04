@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="container mx-auto p-3 w-4/5 mt-3 ">
+        <!-- navbar -->
+        <!-- <div class="w-full mx-auto h-12 rounded-md"> -->
+<!-- 
+            <ul class="mx-32 py-3">
+                <li class="mx-4 py-2 inline bg-cyan-300 text-white font-semibold rounded-md hover:bg-teal-500 cursor-pointer">
+                    <a class="m-5 p-2 text-white-500 font-sans-serif " href="index.html">Home</a>
+                </li>
+
+                <li class="m-4 py-2 px-2 inline bg-cyan-500 text-white font-semibold rounded-md hover:bg-teal-300 cursor-pointer">
+                    <a class="m-5 p-2 text-white-500 font-sans-serif" href="tempat.html">Tempat</a>
+                </li>
+
+                <li class="m-4 py-2 px-2 inline bg-cyan-500 text-white font-semibold rounded-md hover:bg-teal-300 cursor-pointer">
+                    <a class="m-3 px-2 text-white-500 font-sans-serif" href="foto.html">Foto</a>
+                </li>
+
+                <li class="m-4 py-2 inline bg-cyan-500 text-white font-semibold rounded-md hover:bg-teal-300 cursor-pointer">
+                    <a class="m-4 p-2 text-white-500 font-sans-serif" href="info.html">Tentang</a>
+                </li>
+            </ul> -->
+            <nav class="md:flex md:justify-center md:items-center p-5">
+                <ul class="md:flex md:items-center">
+                    <li class="mx-4 my-6 md:my-0">
+                        <a href="index.html"  class="px-5 py-2 bg-cyan-300 rounded-md transition ease-in-out delay-150  hover:bg-teal-500 duration-300 text-white capitalize">home</a>
+                    </li>
+                    <li class="mx-4 my-6 md:my-0">
+                        <a href="tempat.html" class="capitalize px-5 py-2  bg-cyan-300 rounded-md transition ease-in-out delay-150  hover:bg-teal-500 duration-300 text-white">tempat</a>
+                    </li>
+                    <li class="mx-4 my-6 md:my-0">
+                        <a href="foto.html" class="px-5 py-2 capitalize bg-cyan-300 rounded-md transition ease-in-out delay-150  hover:bg-teal-500 duration-300 text-white">foto</a>
+                    </li>
+                    <li class="mx-4 my-6 md:my-0">
+                        <a href="info.html" class="px-5 py-2 capitalize bg-cyan-300 rounded-md transition ease-in-out delay-150  hover:bg-teal-500 duration-300 text-white">tentang</a>
+                    </li>
+                    
+                </ul>
+                </nav>
+        <!-- </div> -->
+        
+        <!-- banner -->
+        <div class="w-full h-80 overflow-hidden my-10 rounded-md bg-local bg-no-repeat bg-center bg-cover p-20" style="background-image: url('http://source.unsplash.com/1200x600?mountain');">
+            <div class="w-fit backdrop-blur-md bg-white/30 mx-auto mt-9 rounded-md">
+            <h2 class="font-sans-serif font-semibold text-slate-800 text-4xl p-5 ">Adventure<span class="text-sky-700">Place</span></h2>
+        </div>
+        </div>
+
+        <!-- tempat terbaik -->
+        <!-- use grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 my-10">
+            <div class="bg-slate-100 rounded-md border overflow-hidden">
+                <!-- foto -->
+                <div class="h-60 overflow-hidden">
+                    <img src="http://source.unsplash.com/300x250?mountain" alt="Mountain" class="w-full">
+                </div>
+                <div class="font-semibold text-2x1 pt-5 pl-5 pr-5">
+                    Tempat Terbaik 1
+                    <p class="p-5 font-sans-serif "> Gunung adalah bagian kerak bumi yang lebih tinggi dari area di sekitarnya. Gunung biasanya memiliki sisi curam yang secara signifikan menyingkap batuan dasarnya</p>
+                </div>
+            </div>
+            
+            <div class="bg-slate-100 rounded-md border overflow-hidden">
+                <!-- foto -->
+                <div class="h-60 overflow-hidden">
+                    <img src="http://source.unsplash.com/300x250?forest" alt="Forest" class="w-full">
+                </div>
+                <div class="font-semibold text-2x1 pt-5 pl-5 pr-5">
+                    Tempat Terbaik 2
+                    <p class="p-5 font-sans-serif "> Hutan adalah suatu kesatuan ekosistem berupa hamparan lahan berisi sumber daya alam hayati yang didominasi pepohonan dalam persekutuan alam lingkungannya, yang satu dengan lainnya tidak dapat dipisahkan</p>
+                </div>
+            </div>
+
+            <div class="bg-slate-100 rounded-md border overflow-hidden">
+                <!-- foto -->
+                <div class="h-60 overflow-hidden">
+                    <img src="http://source.unsplash.com/300x250?sea" alt="Sea" class="w-full">
+                </div>
+                <div class="font-semibold text-2x1 pt-5 pl-5 pr-5">
+                    Tempat Terbaik 3
+                    <p class="p-5 font-sans-serif">Pantai merupakan sebuah bentuk geografis yang terdiri dari pasir, dan terdapat di daerah pesisir laut. Daerah pantai menjadi batas antara daratan dan perairan laut. Panjang garis pantai ini diukur mengeliling seluruh pantai yang merupakan daerah teritorial suatu negara.</p>
+                </div>
+            </div>
+
+            
+
+        </div>
+
+        <div class="w-full h-48 overflow-hidden my-10 rounded-md bg-local bg-no-repeat bg-center p-28 object-center" style="background-image: url('http://source.unsplash.com/1200x600?adventure');">
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4">
+            <div class="h-60 overflow-hidden bg-center bg-cover rounded-md" style="background-image: url('http://source.unsplash.com/300x250?forest');"></div>
+            <div class="h-60 overflow-hidden bg-center bg-cover rounded-md" style="background-image: url('http://source.unsplash.com/300x250?sea');"></div>
+            <div class="h-60 overflow-hidden bg-center bg-cover rounded-md" style="background-image: url('http://source.unsplash.com/300x250?mountain');"></div>
+            <div class="h-60 overflow-hidden bg-center bg-cover rounded-md" style="background-image: url('http://source.unsplash.com/300x250?beach');"></div>
+            <div class="h-60 overflow-hidden bg-center bg-cover rounded-md" style="background-image: url('http://source.unsplash.com/300x250?earth');"></div>
+            <div class="h-60 overflow-hidden bg-center bg-cover rounded-md" style="background-image: url('http://source.unsplash.com/300x250?space');"></div>
+            <div class="h-60 overflow-hidden bg-center bg-cover rounded-md" style="background-image: url('http://source.unsplash.com/300x250?planet');"></div>
+            <div class="h-60 overflow-hidden bg-center bg-cover rounded-md" style="background-image: url('http://source.unsplash.com/300x250?sky');"></div>
+            <div class="h-60 overflow-hidden bg-center bg-cover rounded-md" style="background-image: url('http://source.unsplash.com/300x250?earth');"></div>
+        </div>
+
+        <!-- footer -->
+        <div class="w-full h-35 overflow-hiddden mt-20 rounded-md text-center text-black font-bold bg-cyan-300">
+            <h3 class="py-8">Sifa Nur Febriani @ 2022</h3>
+        </div>
+
+    </div>
+</body>
+</html>
